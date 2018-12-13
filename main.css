@@ -1,0 +1,57 @@
+.header {
+    float: right;
+    border:solid;
+    padding: 15px;
+    border-color:red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+body {
+    background-image: url('imgs/hero.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding:20px;
+   
+   
+}
+
+a {
+    color:white;
+    padding:20px;
+    font-size: 25px;
+    border-style:double;
+    
+}
+
+main {
+    color:white;
+
+}
+
+.email {
+    border:none;
+    padding: 0;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+/* @media display (max-width: 576px) {
+    
+} */
+
+@keyframes example {
+  0%   {border-color: red;}
+  25%  {border-color: white;}
+  50%  {border-color: blue;}
+  100% {border-color: green;}
+}
+
