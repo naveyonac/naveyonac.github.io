@@ -30,8 +30,13 @@ a {
 }
 
 main {
-    color:white;
+    color: rgb(0 0 0);
+    font-size: 17px
 
+}
+
+.skills {
+    color:white;
 }
 
 .email {
@@ -53,5 +58,9 @@ h1 {
   25%  {border-color: white;}
   50%  {border-color: blue;}
   100% {border-color: green;}
+}
+
+ul {
+    list-style-type: none;
 }
 
