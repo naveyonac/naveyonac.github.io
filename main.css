@@ -13,6 +13,7 @@ body {
     background-image: url('imgs/hero.jpg');
     background-size:cover;
     background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -45,9 +46,6 @@ main {
     font-size: 15px;
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-}
 
 /* @media display (max-width: 576px) {
     
@@ -63,4 +61,24 @@ h1 {
 ul {
     list-style-type: none;
 }
+
+#mainHeader {
+    margin-right: 540px;
+    margin-top: 280px;
+    color: white;
+}
+
+.contactMe {
+    color: white;
+}
+
+.aboutMe {
+    color: white;
+    text-shadow: 1px 1px #000000
+}
+
+/* .hangmanCard {
+    height: 200px;
+    width: 50%;
+} */
 
