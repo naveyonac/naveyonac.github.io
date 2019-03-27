@@ -18,7 +18,7 @@ body {
 
 nav {
     padding:20px;
-   
+    margin-top:20px
    
 }
 
@@ -65,7 +65,8 @@ ul {
 #mainHeader {
     margin-right: 540px;
     margin-top: 280px;
-    color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif
 }
 
 .contactMe {
@@ -82,3 +83,11 @@ ul {
     width: 50%;
 } */
 
+.projects {
+    display: inline;
+}
+
+.linkedin {
+    border: none;
+    display: inline
+}

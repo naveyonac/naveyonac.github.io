@@ -1,0 +1,53 @@
+
+.header {
+    float: right;
+    border:solid;
+    padding: 15px;
+    border-color:red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: black
+}
+
+nav {
+    padding:20px;
+    margin-bottom: 50px; 
+}
+
+.navLink {
+    color: white;;
+    padding:20px;
+    font-size: 25px;
+    border-style:double; 
+}
+.projects {
+    display: inline;
+    text-align: center
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+body {
+    background-image: url('./imgs/hero.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Open Sans', sans-serif
+}
+
+a {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+p {
+    text-shadow: 1px 1px #000000;
+}
+
+.hangmanPic {
+    margin-left:200px
+}
